@@ -29,16 +29,18 @@ Certifique-se de ter um banco de dados SQLite configurado e acessível. Você po
 npm run dev
 O servidor estará disponível em http://localhost:3333.
 
-##Rotas
-POST /users: Cria um novo usuário.
-POST /login: Autentica um usuário e retorna um token JWT.
-GET /me: Retorna informações do usuário autenticado.
-GET /balance: Retorna o saldo do usuário autenticado.
-POST /receive: Cria uma nova transação de recebimento.
-GET /receives: Retorna a lista de transações de recebimento do usuário autenticado.
-DELETE /receives/delete: Deleta uma transação de recebimento.
-Middlewares
-isAuthenticated: Verifica se o usuário está autenticado.
-Observações
-Este projeto utiliza TypeScript para uma melhor organização e tipagem do código.
-Recomenda-se configurar um banco de dados SQLite ou outro banco de dados compatível com Prisma.
+## Rotas
+- **POST /users**: Cria um novo usuário.
+- **POST /login**: Autentica um usuário e retorna um token JWT.
+- **GET /me**: Retorna informações do usuário autenticado.
+- **GET /balance**: Retorna o saldo do usuário autenticado.
+- **POST /receive**: Cria uma nova transação de recebimento.
+- **GET /receives**: Retorna a lista de transações de recebimento do usuário autenticado.
+- **DELETE /receives/delete**: Deleta uma transação de recebimento.
+
+## Middlewares
+- **isAuthenticated**: Verifica se o usuário está autenticado.
+
+## Observações
+- Este projeto utiliza TypeScript para uma melhor organização e tipagem do código.
+- Recomenda-se configurar um banco de dados SQLite ou outro banco de dados compatível com Prisma.
