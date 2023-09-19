@@ -1,4 +1,3 @@
--- CreateTable
 CREATE TABLE "users" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "name" TEXT NOT NULL,
@@ -9,7 +8,6 @@ CREATE TABLE "users" (
     "updated_at" DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
--- CreateTable
 CREATE TABLE "receives" (
     "id" TEXT NOT NULL PRIMARY KEY,
     "description" TEXT NOT NULL,
