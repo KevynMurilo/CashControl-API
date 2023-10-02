@@ -1,6 +1,6 @@
 # Finanças Pessoais - Backend
 
-Este é o backend de uma aplicação de finanças pessoais (O aplicativo ainda será postado), projetada para auxiliar os usuários no gerenciamento de suas finanças. Esta aplicação oferece funcionalidades como criação de usuários, autenticação, registro de transações financeiras e consulta de saldo. Os dados dos usuários são armazenados localmente usando SQLite.
+Este é o backend de uma aplicação de finanças pessoais, projetada para auxiliar os usuários no gerenciamento de suas finanças. Esta aplicação oferece funcionalidades como criação de usuários, autenticação, registro de transações financeiras e consulta de saldo. Os dados dos usuários são armazenados localmente usando SQLite.
 
 ## Tecnologias Utilizadas
 
