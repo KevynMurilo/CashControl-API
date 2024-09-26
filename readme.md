@@ -18,14 +18,14 @@ CashControl API é uma api projetada para auxiliar os usuários no gerenciamento
    ```bash
    git clone https://github.com/KevynMurilo/ApiTs.git
    
-##Instale as Dependências:
+## Instale as Dependências:
 cd ApiTs
 npm install
 
-##Configure o Banco de Dados:
+## Configure o Banco de Dados:
 Certifique-se de ter um banco de dados SQLite configurado e acessível. Você pode modificar as configurações no arquivo prisma/schema.prisma.
 
-##Execute o Servidor:
+## Execute o Servidor:
 npm run dev
 O servidor estará disponível em http://localhost:3333.
 
